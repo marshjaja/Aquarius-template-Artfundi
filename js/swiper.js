@@ -28,9 +28,9 @@ document.addEventListener("DOMContentLoaded", function () {
 		centeredSlides: true,
 		slidesPerView: "auto",
 		coverflowEffect: {
-			rotate: 15,
-			stretch: 130,
-			depth: 390,
+			rotate: 17,
+			stretch: 50,
+			depth: 400,
 			modifier: -1,
 			slideShadows: false,
 		},
