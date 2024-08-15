@@ -1,0 +1,115 @@
+/* NOTE ============== LATEST SWIPER CSS START ==============  */
+
+.swiper-container {
+	width: 100%;
+	max-width: 1280px;
+	height: auto;
+	margin: auto;
+	overflow: hidden;
+}
+.swiper-slide a,
+.homepage-section a,
+.work-card a {
+	text-decoration: none;
+}
+
+/* NOTE ============== LATEST SWIPER CSS END ==============  */
+
+/* NOTE ============== HERO SWIPER CSS START ==============  */
+.hero-section {
+	width: 100%;
+	height: 90vh;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: var(--margin-xxl);
+}
+
+.hero-swiper {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.hero-swiper .swiper-slide {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	position: relative;
+	overflow: hidden;
+	border-radius: 8px;
+	transition: transform 0.9s ease-in-out, opacity 0.9s ease-in-out;
+}
+.hero-swiper .swiper-slide-active {
+	transform: scale(1.1);
+	opacity: 1;
+}
+
+.hero-swiper .swiper-slide img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.hero-text {
+	padding: var(--padding-md);
+	background: var(--primary-color);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	text-align: left;
+	margin-top: 20px;
+	margin: var(--margin-xl) var(--margin-lg);
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	color: white;
+	font-size: var(font-size-xxl);
+	z-index: 10;
+}
+
+.hero-text h2 {
+	margin: 0;
+}
+
+@media (max-width: 768px) {
+	.hero-text {
+		margin: 40px 20px;
+	}
+}
+
+@media (max-width: 576px) {
+	.hero-text {
+		margin: 40px 20px;
+	}
+
+	.hero-text h2 {
+		font-size: var(--font-size-md);
+	}
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+	color: var(--primary-color);
+	opacity: 0.7;
+}
+
+.swiper-pagination-bullet {
+	width: 35px;
+	height: 35px;
+	background-color: var(--text-color-light);
+	opacity: 0.7;
+	border-radius: 0;
+	border: 2px solid var(--primary-color);
+}
+
+.swiper-pagination-bullet-active {
+	background-color: var(--primary-color);
+	opacity: 1;
+}
+/* NOTE ============== HERO SWIPER CSS  END ==============  */

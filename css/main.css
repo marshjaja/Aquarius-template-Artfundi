@@ -1,0 +1,298 @@
+/* NOTE ==== ROOT CSS  ==== */
+:root {
+	/* NOTE ==== Colors ==== */
+	--primary-color: #191970; /* Mid Night Blue */
+	--secondary-color: #9a9a9a; /* Grey */
+	--border-color: #9a9a9a; /* Light */
+	--background-color: #ffffff; /* White */
+	--text-color-light: #ccc; /* Lighter Grey */
+
+	/* NOTE ==== Font Sizes ==== */
+
+	--font-size-xxs: 0.75rem; /* 12px */
+	--font-size-xs: 0.875rem; /* 14px */
+	--font-size-base: 1rem; /* 16px */
+	--font-size-md: 1.3rem; /* 20.8px */
+	/*--font-size-lg: 1.7rem;  27.2px */
+	--font-size-lg: 1.8rem; /* 28.8px */
+	--font-size-xl: 2rem; /* 38px */
+	--font-size-xxl: 2.3rem; /* 38px */
+
+	/* NOTE ==== Font Family ==== */
+	--font-family-base: "Poppins", sans-serif;
+	--font-family-alt: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		"Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+	/* NOTE ==== Font Weight ==== */
+	--font-weight-light: 100;
+	--font-weight-lighter: 200;
+	--font-weight-regular: 300;
+	--font-weight-bold: 400;
+	--font-weight-bolder: 500;
+	--font-weight-thick: 700;
+
+	/* NOTE ==== Padding ==== */
+	--padding-xs: 0.375rem; /* 6px */
+	--padding-sm: 0.9375rem; /* 15px */
+	--padding-md: 1.875rem; /* 30px */
+	--padding-lg: 3rem; /* 48px */
+	--padding-xl: 3.75rem; /* 60px */
+
+	/* NOTE ==== Margin ==== */
+
+	--margin-xxs: 0.5rem; /* 8px */
+	--margin-xs: 0.625rem; /* 10px */
+	--margin-sm: 1.875rem; /* 30px */
+	--margin-md: 2.375rem; /* 38px */
+	--margin-lg: 3.125rem; /* 50px */
+	--margin-xl: 4.688rem; /* 75px */
+	--margin-xxl: 6.25rem; /* 100px */
+
+	/* NOTE ==== Border ==== */
+	--border-width: 0.125rem;
+
+	/* NOTE ==== Line Height ==== */
+	--line-height: 1.5; /* 150% */
+}
+
+/* NOTE ============== GENERAL PAGE CSS START ==============  */
+
+body {
+	color: var(--primary-color);
+	font-family: var(--font-family-base), var(--font-family-alt);
+	font-size: var(--font-size-base);
+	font-weight: var(--font-weight-regular);
+	/* font-weight: var(--font-weight-bold); */
+	font-style: normal;
+	line-height: var(--line-height);
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-align: left;
+}
+.small-text {
+	color: var(--secondary-color);
+	font-size: var(--font-size-xxs);
+	font-style: oblique;
+	margin: 2px 0 30px;
+}
+
+.first {
+	color: var(--secondary-color);
+	font-size: var(--font-size-xs);
+	margin: var(--margin-xxs) 0 0;
+}
+
+.title {
+	color: var(--primary-color);
+	font-size: var(--font-size-base);
+	line-height: var(--line-height);
+	margin: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 100%;
+	display: block;
+}
+.card-first {
+	color: var(--primary-color);
+	font-size: var(--font-size-base);
+	font-weight: 300;
+	margin: 8px 0 0;
+}
+
+.third {
+	color: var(--secondary-color);
+	font-size: var(--font-size-xs);
+}
+.page-title {
+	font-size: var(--font-size-lg);
+	margin-top: var(--margin-md);
+	text-wrap: nowrap;
+	font-weight: 100;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: var(--padding-sm);
+	padding-right: var(--padding-sm);
+	width: 100%;
+}
+
+/* NOTE ============== GENERAL PAGE CSS END ==============  */
+
+/* NOTE ============== ALL PAGES CARDS START ==============  */
+.img-container {
+	width: 100%;
+	height: 250px;
+	overflow: hidden;
+	position: relative;
+	/* margin-bottom: var(--margin-xs); */
+}
+.card img,
+.blogs-card img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 0.3s ease;
+	border: none;
+}
+
+.card-1 img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 0.3s ease;
+	border-top-right-radius: 20%;
+	border-bottom-left-radius: 20%;
+	border-top-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.card img:hover,
+.card-1 img:hover {
+	transform: scale(1.1);
+}
+
+/* NOTE ============== ALL PAGES CARDS  END ==============  */
+
+/* NOTE ============== FILTER SECTION START ==============  */
+.search-button-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin-bottom: var(--margin-lg);
+}
+.button-container {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+}
+.button-container button {
+	margin-left: var(--margin-xs);
+}
+.hidden-content {
+	margin-top: var(--margin-xs);
+	display: none;
+	width: 50%;
+}
+
+/* NOTE ============== FILTER SECTION END ==============  */
+/* NOTE ============== CUSTOM BUTTON START ==============  */
+
+.custom-btn {
+	padding: 6px 48px;
+	color: black;
+	border: var(--border-width) solid var(--border-color);
+}
+.custom-btn:hover {
+	color: var(--text-color-light);
+	background-color: var(--primary-color);
+	border: var(--border-width) solid var(--primary-color);
+}
+/* NOTE ============== CUSTOM BUTTON END ==============  */
+
+.page-section {
+	margin-top: var(--margin-xxl);
+}
+
+.artist-row {
+	margin-bottom: var(--margin-xxl);
+}
+.artist-row a,
+.page-section a {
+	text-decoration: none;
+}
+
+@media (min-width: 992px) {
+	.dropdown:hover .dropdown-menu {
+		display: block;
+	}
+}
+/* NOTE ============== VIEWING ROOM CODE START ==============  */
+.viewing-rooms {
+	margin-bottom: var(--margin-lg);
+}
+
+.vr-block {
+	margin-top: var(--margin-xl);
+	margin-bottom: var(--margin-xs);
+}
+
+@media (min-width: 768px) {
+	.card-body {
+		padding: var(--padding-lg);
+	}
+}
+
+/* NOTE ============== VIEWING ROOM CODE END ==============  */
+
+.viewing-room .full-w-banner {
+	background-position: center;
+	background-size: cover;
+	height: calc(80vh - 80px);
+	min-height: 400px;
+	position: relative;
+	max-width: 1280px;
+	margin: 0 auto;
+	padding-bottom: var(--padding-xl);
+}
+
+/* NOTE ============== WORKS EXAMPLE START ==============  */
+
+.enquire-button {
+	margin-top: 20px;
+}
+
+/* .newsletterSignup {
+	padding: 7rem 0 !important;
+} */
+
+.about-image {
+	background-image: url("/images/artwork-5.jpg");
+	background-size: cover;
+	background-position: center;
+	min-height: 100vh;
+}
+.about-text {
+	background: var(--primary-color);
+	/* background: #191970a7; */
+	padding: var(--padding-xl);
+}
+.alt-first {
+	color: var(--text-color-light);
+	font-size: var(--font-size-xs);
+	margin: var(--margin-xxs) 0 0;
+}
+.alt-third {
+	color: var(--text-color-light);
+	font-size: var(--font-size-xs);
+}
+.alt-title {
+	line-clamp: 2;
+	-webkit-box-orient: vertical;
+	color: var(--text-color-light);
+	display: -webkit-box;
+	font-size: var(--font-size-base);
+	line-height: var(--line-height);
+	margin: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 100%;
+}
+.alt-page-title {
+	font-size: var(--font-size-lg);
+	margin-bottom: var(--margin-lg);
+	text-wrap: nowrap;
+	font-weight: 300;
+	-webkit-box-orient: vertical;
+	color: var(--secondary-color);
+}
+
+@media (max-width: 992px) {
+	.alt-page-title {
+		font-size: var(--font-size-md);
+	}
+}

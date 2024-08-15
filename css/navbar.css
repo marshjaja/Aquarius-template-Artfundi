@@ -1,0 +1,83 @@
+.navbar,
+.dropdown-menu a {
+	background-color: #ffffff;
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.navbar-brand,
+.nav-link {
+	color: #191970 !important;
+}
+
+.navbar-nav {
+	white-space: nowrap;
+}
+
+.navbar-toggler {
+	border: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+	outline: none;
+	box-shadow: none;
+}
+
+.navbar-light .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30'%3E%3Cpath stroke='rgb(25, 25, 112)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.logo a {
+	color: #180048;
+	text-decoration: none;
+}
+
+.navbar .logo {
+	font-size: 36px;
+	font-size: 2.3rem;
+	font-weight: 500;
+}
+
+.nav-link,
+.dropdown-item {
+	transition: background-color 0.3s ease, color 0.3s ease;
+	border-radius: 5px;
+	color: #191970 !important;
+}
+
+.dropdown-menu {
+	color: #191970 !important;
+	/* border: px solid grey; */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.032);
+}
+
+.nav-link:hover,
+.dropdown-item:hover {
+	background-color: #00ced1;
+	background-color: #191970 !important;
+	color: #ffffff !important;
+	border-radius: 5px;
+}
+@media (min-width: 992px) {
+	.nav-link:hover {
+		background-color: #191970 !important;
+		color: #ffffff !important;
+	}
+	.dropdown-menu {
+		color: #ffffff !important;
+	}
+}
+
+@media (max-width: 991px) {
+	/* Styles for smaller screens */
+	.nav-link:hover {
+		color: #9a9a9a !important;
+		background-color: transparent !important;
+	}
+	.dropdown-menu .dropdown-item:hover {
+		color: #9a9a9a !important;
+		background-color: transparent !important;
+	}
+}

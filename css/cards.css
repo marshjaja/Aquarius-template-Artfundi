@@ -1,0 +1,83 @@
+.work-card {
+	margin-bottom: 30px;
+	border: none;
+	position: relative;
+	overflow: hidden;
+}
+
+.work-card img {
+	margin-bottom: 10px;
+	object-fit: cover;
+	object-position: center top;
+	width: 100%;
+	height: 300px;
+	display: block;
+}
+
+.work-card img.card-v {
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+	display: block;
+}
+
+.work-card img.card-a {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	display: block;
+}
+
+.work-card img.card-b {
+	width: 100%;
+	height: 300px;
+	border-radius: 50%;
+	object-fit: cover;
+	display: block;
+}
+
+.work-card-body {
+	text-align: left !important;
+	padding: 0;
+}
+
+@media (max-width: 991.98px) {
+	.work-card img {
+		height: 150px;
+	}
+
+	.work-card img.card-v {
+		height: 350px;
+	}
+}
+
+@media (max-width: 575.98px) {
+	.work-card img,
+	.work-card img.card-v {
+		height: 250px !important;
+	}
+}
+
+/* ============== BLOGS CARDS CSS START ============== */
+.blogs-card {
+	margin-bottom: 80px;
+	border: none;
+	text-align: left !important;
+	transition: transform 0.2s;
+	position: relative;
+	overflow: hidden;
+}
+
+.blogs-card img.card-img-top {
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+	display: block;
+}
+
+.blogs-card-body {
+	text-align: left !important;
+	padding: 0;
+}
+
+/* ============== BLOGS CARDS CSS END ============== */

@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Contact |</title>
+		<link
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/swiper/swiper-bundle.min.css"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://leo.artfundi.tech/themes/leo/css/app.css?id=bd699720855b6ee98eecd9c125091500"
+			type="text/css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+		/>
+
+		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="stylesheet" href="./css/navbar.css" />
+		<link rel="stylesheet" href="./css/footer.css" />
+		<link rel="stylesheet" href="./css/swiper.css" />
+		<style>
+			.form-block {
+				background-color: #191970;
+				color: #fff;
+				padding: 20px;
+				border-radius: 5px;
+			}
+
+			.google-map-container {
+				width: 100%;
+			}
+
+			.google_map {
+				position: relative;
+				width: 100%;
+				padding-top: 56.25%;
+			}
+
+			.google_map iframe {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+
+			@media (max-width: 768px) {
+				.google-map-container {
+					padding: 15px !important;
+				}
+			}
+			/* 
+			@media (max-width: 576px) {
+				.google-map-container {
+					padding: 10px;
+				}
+			} */
+		</style>
+	</head>
+	<body>
+		<!-- ================== HEADER SECTION START ================== -->
+		<header>
+			<nav class="navbar fixed-top navbar-expand-lg navbar-light">
+				<div class="container py-4">
+					<a class="navbar-brand" href="/index.html">
+						<div class="logo">Your Logo</div>
+					</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a href="/artists/artists.html" class="nav-link">Artists</a>
+							</li>
+							<li class="nav-item">
+								<a href="/works/works.html" class="nav-link">Works</a>
+							</li>
+							<li class="nav-item">
+								<a href="/exhibitions/exhibitions.html" class="nav-link"
+									>Exhibitions</a
+								>
+							</li>
+
+							<li class="nav-item">
+								<a href="/custom-tab/custum-tab.html" class="nav-link"
+									>Custom Tab</a
+								>
+							</li>
+							<li class="nav-item">
+								<a href="/news/news.html" class="nav-link">News</a>
+							</li>
+							<li class="nav-item">
+								<a href="/blogs/blogs.html" class="nav-link">Blog</a>
+							</li>
+							<li class="nav-item">
+								<a href="/about.html" class="nav-link">About</a>
+							</li>
+							<li class="nav-item">
+								<a href="/contact.html" class="nav-link">Contact</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									href="#"
+									class="nav-link dropdown-toggle"
+									id="navbarDropdown"
+									role="button"
+									data-toggle="dropdown"
+									aria-haspopup="true"
+									aria-expanded="false"
+								>
+									More
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a
+										class="dropdown-item"
+										href="/viewing-rooms/viewing-rooms.html"
+										>Viewing Rooms</a
+									>
+									<a
+										class="dropdown-item"
+										href="/publications/publications.html"
+										>Publications</a
+									>
+									<a class="dropdown-item" href="/project/project.html"
+										>Projects</a
+									>
+									<a class="dropdown-item" href="/events/events.html">Events</a>
+									<a class="dropdown-item" href="/fairs/fairs.html">Fairs</a>
+									<a class="dropdown-item" href="/channel.html">Channel</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!-- ================== HEADER SECTION END ================== -->
+
+		<!-- ================== CONTACT FORM SECTION END ================== -->
+		<section class="page-section">
+			<div class="container">
+				<div
+					class="d-flex justify-content-between align-items-center my-4 py-3"
+				>
+					<h2 class="page-title" data-aos="zoom-in-down">Contact</h2>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row mb-5">
+					<!-- ========== Left Column: Contact Form ========== -->
+					<div class="col-md-6 form-block mb-5">
+						<h2 class="alt-page-title">We would love to hear from you.</h2>
+						<form id="contactBranch" action="" method="post">
+							<input
+								type="hidden"
+								name="_token"
+								value="DtQznHgZnmjHqa3l9sT4enX0p0L3EQZnqPMgfiXZ"
+							/>
+							<div
+								id="my_name_A4F40ZPwX5fg43jj_wrap"
+								style="display: none"
+								aria-hidden="true"
+							>
+								<input
+									id="my_name_A4F40ZPwX5fg43jj"
+									name="my_name_A4F40ZPwX5fg43jj"
+									type="text"
+									value=""
+									autocomplete="nope"
+									tabindex="-1"
+								/>
+								<input
+									name="valid_from"
+									type="text"
+									value="eyJpdiI6InR0Z0hLUEQvYVhkMFA0bk1kU1BqcFE9PSIsInZhbHVlIjoiVzFNTDBSRnNSdnlLLzBIUXhnR2tadz09IiwibWFjIjoiOWM2MzhlYjUyMjFlYTJlMjhmYmNmNTcyNjJjOWUwYThiMTI5YjBmNTM5ZDJmZDhlNjUzMDhhNGYxODU3ZmI3ZSIsInRhZyI6IiJ9"
+									autocomplete="off"
+									tabindex="-1"
+								/>
+							</div>
+							<div class="form-group">
+								<label for="branch">Select a branch:</label>
+								<select
+									required
+									onchange="OnSelectChange(this)"
+									id="branch"
+									name="branch"
+									class="form-control"
+								>
+									<option value="">Please select a branch</option>
+									<option value="1" data-branch="1">Head Office</option>
+									<!-- Add more options as needed -->
+								</select>
+							</div>
+							<div class="form-group" style="display: none">
+								<label for="faxonly"
+									>Fax Only
+									<input type="checkbox" name="faxonly" id="faxonly" />
+								</label>
+							</div>
+							<div class="form-group">
+								<input
+									type="text"
+									class="form-control third"
+									id="name"
+									name="name"
+									placeholder="Full Name"
+									required
+								/>
+							</div>
+							<div class="form-group">
+								<input
+									type="email"
+									class="form-control third"
+									id="email"
+									name="email"
+									placeholder="Email Address"
+									required
+								/>
+							</div>
+							<div class="form-group">
+								<input
+									type="text"
+									class="form-control third"
+									id="telephone"
+									name="telephone"
+									placeholder="Phone Number (optional)"
+								/>
+							</div>
+							<div class="form-group">
+								<textarea
+									class="form-control third"
+									id="message"
+									name="message"
+									rows="6"
+									placeholder="Message"
+									required
+								></textarea>
+							</div>
+							<div class="form-group text-center">
+								<button
+									class="btn btn-outline-light px-4 w-100"
+									type="submit"
+									value="submit"
+								>
+									Send
+								</button>
+							</div>
+						</form>
+					</div>
+
+					<!-- ========== Right Column: Google Maps and Contact Info ========== -->
+					<div class="col-md-6 pr-0 google-map-container" data-aos="zoom-in">
+						<div class="mb-3">
+							<div class="google_map">
+								<iframe
+									class="responsive-iframe"
+									title="Google Map showing the location of the gallery"
+									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.789357933123!2d18.41940001521259!3d-33.90689802763381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc6768a7f9c6f1%3A0xd7e5a85ddcd9a6c7!2sPortswood%20House%2C%20Portswood%20Ridge%2C%20V%26A%20Waterfront%2C%20Cape%20Town%2C%208001!5e0!3m2!1sen!2sza!4v1651234567890!5m2!1sen!2sza"
+									style="border: 0"
+									allowfullscreen
+									loading="lazy"
+									referrerpolicy="no-referrer-when-downgrade"
+								></iframe>
+							</div>
+							<div class="mb-5">
+								<p class="first mt-3">+27 21 300 0849</p>
+								<p class="first">care@artfundi.tech</p>
+								<p class="first">
+									Portswood House, Portswood Ridge, V&amp;A Waterfront, 8001
+								</p>
+								<p class="first">Mon - Sat : 9am - 5pm</p>
+								<p class="first">Sundays : Closed</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ================== CONTACT FORM SECTION START ================== -->
+
+		<!-- ================== NEWS LETTER SIGNUP SECTION START ================== -->
+		<div id="newsletterSignup" class="dark" style="padding: 3rem 0 !important">
+			<div id="signupForm">
+				<div class="container clearfix">
+					<div class="featured-slider" style="padding: 15px">
+						<h2 class="mb-4">Sign Up to our Newsletter!</h2>
+						<form
+							class="row contact"
+							method="POST"
+							action="https://lynx.artfundi.tech/add/newsletter/signup"
+						>
+							<input
+								type="hidden"
+								name="_token"
+								value="4kGSC7qJQPMU72JtNH1J55fOJ8Z21e8rZ8mSP4Xs"
+							/>
+							<div class="col-12 col-md-3 newsletter-input">
+								<input
+									type="text"
+									class="form-control third"
+									name="name"
+									placeholder="First Name*"
+									required=""
+									style="
+										background: #ffffff;
+										border: 1px solid #9a9a9a;
+										color: #9a9a9a;
+										height: 35px;
+										line-height: 35px;
+									"
+								/>
+							</div>
+							<div class="col-12 col-md-3 newsletter-input">
+								<input
+									type="text"
+									class="form-control third"
+									name="surname"
+									placeholder="Last Name"
+									style="
+										background: #ffffff;
+										border: 1px solid #9a9a9a;
+										color: #9a9a9a;
+										height: 35px;
+										line-height: 35px;
+									"
+								/>
+							</div>
+							<div class="col-12 col-md-3 newsletter-input">
+								<input
+									type="email"
+									class="form-control third"
+									name="email"
+									placeholder="Email*"
+									required=""
+									style="
+										background: #ffffff;
+										border: 1px solid #9a9a9a;
+										color: #9a9a9a;
+										height: 35px;
+										line-height: 35px;
+									"
+								/>
+							</div>
+							<div class="col-12 col-md-3 newsletter-button">
+								<button
+									class="btn custom-btn w-100"
+									type="submit"
+									style="
+										font-size: 16px;
+										height: 35px;
+										line-height: 17px;
+										font-weight: normal;
+									"
+								>
+									Subscribe
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- ================== NEWS LETTER SIGNUP SECTION END ================== -->
+
+		<!-- ================== FOOTER SECTION START ================== -->
+
+		<footer class="footer text-dark py-12">
+			<div class="footer-background">
+				<div class="container">
+					<div class="row py-4">
+						<div class="col-12 col-md-4 mb-4 mb-md-0">
+							<h3 class="footer-headers">Aquarius</h3>
+							<p class="footer-text mt-2">
+								This is the Aquarius Template demo website
+							</p>
+						</div>
+						<div class="col-12 col-md-4 mb-4 mb-md-0">
+							<h3 class="footer-headers">Head Office</h3>
+							<p class="footer-text mt-2">
+								Address: Portswood House, Portswood Ridge, V&A Waterfront , 8001
+							</p>
+							<p class="footer-text">Tel: 0213000849</p>
+							<p class="footer-text">Email: accountss@artfundi.com</p>
+						</div>
+						<div class="col-12 col-md-4">
+							<div
+								class="social-media d-flex justify-content-start justify-content-lg-center mt-4"
+							>
+								<a href="#" class="social-icon" aria-label="Facebook"
+									><i class="fab fa-facebook-f fa-lg"></i
+								></a>
+								<a href="#" class="social-icon" aria-label="Twitter"
+									><i class="fab fa-twitter fa-lg"></i
+								></a>
+								<a href="#" class="social-icon" aria-label="Instagram"
+									><i class="fab fa-instagram fa-lg"></i
+								></a>
+								<a href="#" class="social-icon" aria-label="LinkedIn"
+									><i class="fab fa-linkedin fa-lg"></i
+								></a>
+							</div>
+						</div>
+					</div>
+					<div class="text-center footer-small-text mt-4 powered_by">
+						<a
+							href="https://artfundi.tech"
+							target="_blank"
+							class="hover-text-white"
+							>Powered by Artfundi</a
+						>
+						|
+						<a
+							href="https://artfundi.tech"
+							target="_blank"
+							class="hover-text-white"
+							>Copyright © 2024</a
+						>
+						|
+						<a href="https://lynx.artfundi.tech/login" class="hover-text-white"
+							>Login</a
+						>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- ================== FOOTER SECTION END ================== -->
+
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+		<script src="/js/filter.js"></script>
+		<script src="/js/swiper.js"></script>
+	</body>
+</html>

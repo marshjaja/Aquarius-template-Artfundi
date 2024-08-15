@@ -1,0 +1,63 @@
+.footer {
+	text-align: left;
+	padding: 1rem 0;
+	background-color: var(--background-color);
+	display: block;
+}
+
+.footer .footer-headers {
+	color: var(--primary-color) !important;
+	font-size: var(--font-size-base);
+}
+
+.footer .footer-text {
+	font-family: var(--font-family-base), var(--font-family-alt);
+	font-weight: var(--font-weight-lighter);
+	font-style: normal;
+	font-size: var(--font-size-xs);
+}
+
+.footer .social-media {
+	color: var(--primary-color);
+	font-size: var(--font-size-md);
+	margin-right: 18px;
+	text-align: right;
+}
+.footer .social-media .social-icon {
+	color: var(--primary-color);
+	font-size: var(--font-size-md);
+	margin-right: 18px;
+	text-align: right;
+	transition: color 0.3s;
+}
+
+.footer .social-media .social-icon:hover {
+	color: #1919705f;
+}
+
+.footer .footer-small-text a {
+	white-space: nowrap;
+	color: var(--secondary-color);
+	font-weight: var(--font-weight-bold);
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+.footer .footer-small-text a:hover {
+	color: var(--primary-color);
+}
+
+.powered_by {
+	margin: 20px 0 30px;
+	padding: var(--padding-md);
+}
+.powered_by a {
+	color: #9a9a9a;
+	font-size: 11px;
+	font-weight: var(--font-weight-light);
+	margin: 0 15px;
+}
+/* NOTE ============== EMAIL SECTION CSS START ==============  */
+.newsletter-input {
+	margin-bottom: 1.5rem;
+}
