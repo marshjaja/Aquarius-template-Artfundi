@@ -1,30 +1,29 @@
 
 
-![Screenshot 2024-08-16 at 12 36 51](https://github.com/user-attachments/assets/e0ffce04-469c-4bcb-935f-2b78d1699d83)
-
-
-
 
 <a name="top"></a>
 
 <div align="center">
 
-<img src="https://img.shields.io/github/last-commit/marshjaja/Aquarius-template-Artfundi?style=for-the-badge&color=efc8d4" alt="Last Commit" />
-<img src="https://img.shields.io/github/license/marshjaja/Aquarius-template-Artfundi?style=for-the-badge&color=efc8d4" alt="GitHub license" />
-<img src="https://img.shields.io/github/commit-activity/m/marshjaja/Aquarius-template-Artfundi?style=for-the-badge&color=efc8d4" alt="GitHub commit activity" />
-<img src="https://img.shields.io/github/languages/top/marshjaja/Aquarius-template-Artfundi?style=for-the-badge&color=efc8d4" alt="GitHub top language" />
-<br>
+# Aquarius Website Template
+ 
+#### <img src="https://github.com/user-attachments/assets/bb80104d-24e2-4dca-aac2-64ff52b8ee51" alt="Screenshot" width="300">
+ <br> This website template was created during my 12-week Frontend Web Development internship at Artfundi.
+
 
  <a href="https://github.com//marshjaja/Aquarius-template-Artfundi">
  </a>
 
 
-# Artfundi - Aquarius Website Template
-
-#### ![edX](https://img.shields.io/badge/edX-%2302262B.svg?style=for-the-badge&logo=edX&logoColor=white) <br> This website template was created during my 12-week Frontend Web Development internship at Artfundi.
 ![GitHub contributors](https://img.shields.io/github/contributors/marshjaja/Aquarius-template-Artfundi?style=for-the-badge&logoColor=white)
 <p align="center">
-    <a href="https://github.com/marshjaja/marcias-react-portfolio"><strong>Explore the docs »</strong></a>
+
+ <img src="https://img.shields.io/github/last-commit/marshjaja/Aquarius-template-Artfundi?style=for-the-badge&color=efc8d4" alt="Last Commit" />
+<img src="https://img.shields.io/github/license/marshjaja/Aquarius-template-Artfundi?style=for-the-badge&color=efc8d4" alt="GitHub license" />
+<img src="https://img.shields.io/github/commit-activity/m/marshjaja/Aquarius-template-Artfundi?style=for-the-badge&color=efc8d4" alt="GitHub commit activity" />
+<img src="https://img.shields.io/github/languages/top/marshjaja/Aquarius-template-Artfundi?style=for-the-badge&color=efc8d4" alt="GitHub top language" />
+<br>
+    <a href="https://github.com/marshjaja/Aquarius-template-Artfundi"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://aquarius-template-artfundi.netlify.app/">View Deploy Link</a>
@@ -45,8 +44,13 @@
 
 # 🏗️BUILT WITH
   
-* 
-* ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)<br>
+![HTML5](https://img.shields.io/badge/html5-E55330?style=for-the-badge&logo=css3&logoColor=E55330&labelColor=grey)
+![CSS3](https://img.shields.io/badge/css-216CAF?style=for-the-badge&logo=css3&logoColor=216CAF&labelColor=grey)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Swiper.js](https://img.shields.io/badge/swiper-3585FF?style=for-the-badge&logo=swiper&logoColor=3585FF&labelColor=white)
+![Figma](https://img.shields.io/badge/figma-E04A35?style=for-the-badge&logo=figma&logoColor=E04A35&labelColor=white)
+![AOS](https://img.shields.io/badge/AOS.js-565656?style=for-the-badge&logo=aos&logoColor=565656&labelColor=black)
+![Masonry.js](https://img.shields.io/badge/masonry.js-A01745?style=for-the-badge&logo=aos&logoColor=A01745&labelColor=white)
 
 
 
@@ -73,7 +77,8 @@
 ---
 
 # 🗣️USER STORY
-In my role as a developer, I desire a polished and engaging portfolio website that will help me highlight my skills and display my work effectively.
+
+Artfundi needed to refresh and expand their website template collection to better showcase their offerings and improve user experience. My role was to design and develop a new, modern template that aligns with their brand and meets the needs of their clients.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -81,60 +86,17 @@ In my role as a developer, I desire a polished and engaging portfolio website th
 
 # 📖DESCRIPTION
 
-Create a my portfolio website to explore the showcase of my selected projects, delve into my professional background, and discover my diverse skill set:
+The "Aquarius" website template is a modern and responsive design built using HTML, CSS, and JavaScript. It incorporates popular libraries like AOS for animations, Masonry.js for dynamic grid layouts, and Swiper.js for seamless, touch-enabled sliders. This template is crafted to provide a visually appealing and user-friendly experience.
 
-# Portfolio Requirements
-
-## Technologies to be Used:
-- **React:** Must be the core framework.
-- **Navigation:** Utilize React Router, dynamic rendering, or another third-party router for navigation.
 
 ---
-
-
-# ✅ACCEPTANCE CRITERIA
-
-
-## Portfolio Content:
-
-### Personal Information:
-- Your Name
-- **Links to:**
-  - [GitHub Profile](#)
-  - [LinkedIn Page](#)
-  - Email Address: `example@example.com`
-  - Phone Number: `(optional)`
-
-### Resume:
-- Include a PDF version of your up-to-date resume. Ensure it encompasses current projects and professional experience.
-
-### Projects:
-List your projects, including challenges or significant projects you've undertaken. For each project, include:
-- **Project Title**
-- **Deployed Version:** [Link to the deployed version](#)
-- **GitHub Repository:** [Link to the GitHub repository](#)
-- **Preview:** GIF or screenshot of the deployed application
-
-### Required Components for Portfolio
-
-Your portfolio must include, at a minimum, the following 6 components:
-
-1. **App**: The main component that encapsulates all other components.
-2. **Header**: A component that displays the portfolio's header, typically containing navigation links.
-3. **Home**: The landing page component of your portfolio.
-4. **Project Gallery**: A component dedicated to showcasing a collection of projects.
-5. **Project**: Individual project components that detail each project within the gallery.
-6. **Contact**: A component for visitors to contact you, typically containing a form or contact information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ---
 
 # 🚧👷‍♀️PROJECT IMPROVEMENTS:
-- ***To enhance*** the project, I aim to make various improvements. <br>
-- ***Firstly***, I plan to refine the styling to achieve a more polished and visually appealing look, integrating Bootstrap for a professional touch. <br>
-- ***Additionally***, I'll work on improving error handling to ensure a smoother user experience, with informative error messages. <br>
-- ***Lastly***, I'll prioritize cleaning up the codebase, adhering to best practices and writing cleaner, more maintainable code."
+
 
 ---
 
@@ -146,30 +108,23 @@ Your portfolio must include, at a minimum, the following 6 components:
    ```
 2. Navigate to the project directory: cd repository name
 
-
+3. Open the `index.html` file in your web browser to view the project.
 ---
 
 # ⚙️INSTALLATION
-1. Install NPM packages
-   ```sh
-   npm install
-   ```
-2. Run  node index or node index.js
-   ```sh
-   node index.js
-   ```
+No installation is required. Simply clone the repository, navigate to the project directory, and open the `index.html` file in your web browser to start using the project.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ---
 
 # ▶️USAGE
-Navigate through my portfolio website to explore the showcase of my selected projects, delve into my professional background, and discover my diverse skill set.<br>
-Here, you can also access my CV for a comprehensive look at my experience, and reach out to me directly via the contact form for any inquiries or opportunities.
+This template was developed to help Artfundi refresh and expand their website template collection, enhancing the way they showcase their offerings and improving overall user experience. The "Aquarius" template is designed to align with Artfundi's brand while providing a modern, responsive, and user-friendly interface. It is suitable for businesses looking to present their content in an engaging and visually appealing manner, leveraging the latest web technologies.
+<br>
 
-|  Below, discover snapshots from my portfolio website, showcasing projects, skills, and more.|  Below, discover snapshots from my portfolio website, showcasing projects, skills, and more.|Below, discover snapshots from my portfolio website, showcasing projects, skills, and more.|
+| Explore the "Aquarius" template below, featuring modern design, responsive layouts, and seamless user experience. | Explore the "Aquarius" template below, featuring modern design, responsive layouts, and seamless user experience. | Explore the "Aquarius" template below, featuring modern design, responsive layouts, and seamless user experience. |
 |----------|----------|----------|
-| <img width="600" alt="Screenshot 2024-01-23 at 14 03 55" src="https://github.com/marshjaja/marcias-react-portfolio/assets/114920895/d0eb0bee-ed74-4107-b480-e7f9d78f8cbd"> |<img width="750" alt="Screenshot 2024-01-23 at 14 03 55" src="https://github.com/marshjaja/marcias-react-portfolio/assets/114920895/a1fe8166-e6fe-4722-b232-6934582d482b">|<img width="750" alt="Screenshot 2024-01-23 at 14 03 55" src="https://github.com/marshjaja/MarkDownYoda/assets/114920895/36615cca-959d-4b8b-9e61-ab0be4d3a09a">
+| <img width="600" alt="Screenshot of Aquarius template landing page" src="https://github.com/user-attachments/assets/a6da0527-39be-4c31-8196-41ce6c11b2a9"> |<img width="750" alt="Screenshot of quarius template artist page" src="https://github.com/user-attachments/assets/37560082-1033-4e5b-ac18-2c4f27fb16f4">|<img width="750" alt="Screenshot of Aquarius template about page" src="https://github.com/user-attachments/assets/47b2c1cc-be04-48d9-9ff1-b1cf219fc0b3">
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ---
@@ -179,10 +134,13 @@ Here, you can also access my CV for a comprehensive look at my experience, and r
 # 📶TECHNOLOGIES USED
 
 <br/>
-- [x] NPM <br/>
-- [x] React <br/>
+- [x] CSS3 <br/>
+- [x] HTML5 <br/>
 - [x] Javascript <br/>
-- [x] Email.js <br/>
+- [x] Bootstrap <br/>
+- [x] Swiper.js <br/>
+- [x] Masonry.js <br/>
+- [x] AOS <br/>
 
 <br/>
 
@@ -216,9 +174,12 @@ To contribute, follow these steps:
 
 - Javascript ([@Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript))
 - GitHub ([@GitHub](https://github.com)
-- HTML5 
+- HTML5 ([@HTML5](https://github.com)
 - React  ([@React](https://react.dev/))
 - VSCode ([@VSCode](https://code.visualstudio.com/))
+- Masonry.js ([@Masonry.js](https://masonry.desandro.com/))
+- Swiper.js ([@Swiper.js](https://swiperjs.com/))
+- AOS.js ([@AOS.js](https://michalsnik.github.io/aos/))
 
 ---
 
