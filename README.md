@@ -59,7 +59,7 @@
 
 ## Table of Contents
 
-- 
+
   - [Description](#description)
   - [Technologies Used](#technologies-used)
   - [Table of Contents](#table-of-contents)
@@ -120,6 +120,7 @@ No installation is required. Simply clone the repository, navigate to the projec
 
 # ▶️USAGE
 This template was developed to help Artfundi refresh and expand their website template collection, enhancing the way they showcase their offerings and improving overall user experience. The "Aquarius" template is designed to align with Artfundi's brand while providing a modern, responsive, and user-friendly interface. It is suitable for businesses looking to present their content in an engaging and visually appealing manner, leveraging the latest web technologies.
+<br>
 <br>
 
 | Explore the "Aquarius" template below, featuring modern design, responsive layouts, and seamless user experience. | Explore the "Aquarius" template below, featuring modern design, responsive layouts, and seamless user experience. | Explore the "Aquarius" template below, featuring modern design, responsive layouts, and seamless user experience. |
@@ -185,9 +186,9 @@ To contribute, follow these steps:
 
 ## 📞Contact
 
-For more information or inquiries about the project, feel free to contact me:
-On GitHub: [GitHub: marshjaja](https://github.com/marshjaja)
-Via Email: test@testing.com
+For more information or inquiries about the project, feel free to contact me:<br>
+[GitHub: marshjaja](https://github.com/marshjaja)<br>
+[Linkedin](https://www.linkedin.com/in/marcia-mijnhijmer-9a562610a/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
