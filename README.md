@@ -13,6 +13,8 @@
 
  <a href="https://github.com//marshjaja/Aquarius-template-Artfundi">
  </a>
+ 
+  ## <a href="https://aquarius-template-artfundi.netlify.app/">View Deployment Link</a>
 
 
 ![GitHub contributors](https://img.shields.io/github/contributors/marshjaja/Aquarius-template-Artfundi?style=for-the-badge&logoColor=white)
@@ -26,7 +28,7 @@
     <a href="https://github.com/marshjaja/Aquarius-template-Artfundi"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://aquarius-template-artfundi.netlify.app/">View Deploy Link</a>
+    <a href="https://aquarius-template-artfundi.netlify.app/">View Deployment Link</a>
     ·
     <a href="">View Demo *ADD LINK*</a>
     ·
